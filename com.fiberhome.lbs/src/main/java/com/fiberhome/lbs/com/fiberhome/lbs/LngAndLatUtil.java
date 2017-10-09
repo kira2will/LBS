@@ -24,7 +24,8 @@ public class LngAndLatUtil {
 	        	map.put("lat", lat);
 	        	System.out.println("经度："+lng+"---纬度："+lat);
 	        }else{
-	        	System.out.println("未找到相匹配的经纬度！");	        	
+	        	System.out.println("未找到相匹配的经纬度！");	   
+	        	System.out.println("commit");
 	        }
 		return map;
 	}
